@@ -1,0 +1,23 @@
+Visualization for Palindrome Example (121)
+
+reverseNum (121, 0)
+= reverseNum(12, 1)        // rev = 0*10+1=1
+= reverseNum(1, 12)         // rev = 1*10 + 2 = 12
+= reverseNum(0, 121)        // rev = 12*10+1 = 121
+= 121                       // (base case reached)
+
+So the reversed number = 121.
+
+Finally, since 121 == 121, it's a palindrome
+
+◆ Visualization for NON-Palindrome Example (123)
+
+reverseNum(123, 0)
+= reverseNum(12, 3)         // rev = 0*10+3=3
+= reverseNum(1, 32)         // rev = 3*10 + 2 = 32
+= reverseNum(0, 321)        // rev = 32*10+1 = 321
+= 321
+
+So the reversed number = 321.
+
+Finally, since 123 != 321, it's NOT a palindrome

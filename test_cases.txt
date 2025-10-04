@@ -1,0 +1,22 @@
+Edge Test Cases
+
+1. Single digit
+Input: 7
+Output: 7 is a Palindrome (All single-digit numbers are palindromes.)
+
+2. Zero
+Input: 0
+Output: 0 is a Palindrome
+
+3. Negative number
+Input: -121
+Output: -121 is NOT a Palindrome
+(Because of the minus sign, it won't match when reversed.)
+
+4. Large number palindrome
+Input: 123454321
+Output: 123454321 is a Palindrome
+
+5. Large number non-palindrome
+Input: 987654
+Output: 987654 is NOT a Palindrome
